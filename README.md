@@ -2,7 +2,7 @@
 
 ## **Overview**:
 This analysis was conducted in three parts, which included:
-  1. The creation of a weather database - links to files: *CSV Data Sheet* [WeatherPy_Database](Weather_Database/WeatherPy_Database.csv)
+  1. The creation of a weather database - links to files: *CSV Data Sheet* [WeatherPy_Database](Weather_Database/WeatherPy_Database.csv), *Jupyter Notebook File* [WeatherPy_Database](Weather_Database/Weather_Database.ipynb)
   2. Narrowing-down of locations in the database to create a vacation plan - links to files: *CSV Data Sheet* [WeatherPy_vacation](Vacation_Search/WeatherPy_vacation.csv)
   3. Establishing a potential vacation itinerary for a theoretical customer's preferences - link to file: *Jupyter Notebook File* [Vacation_Itinerary](Vacation_Itinerary/Vacation_Itinerary.ipynb)
 Using the random modules in Python to create functions that generated random sets of Latitude and Longitude map points, a list of over 700 locations was narrowed down with increasing filtration in each part of this analysis. With the help of the Open Weather Map API and the Gmaps plugin to access the Google Maps API, various map images were created to display the data in a visual format that is easy to quickly understand and compares a collection of criteria about each geographical location provided by the Latitudinal and Longitudinal pairs. 
@@ -21,6 +21,8 @@ With the available database from the previous section, the data was narrowed dow
 
 ### *Vacation Itinerary*:
 Finally, based on the points populated on the map from the previous part of the analysis, a collection of 4 somewhat-closely grouped points were considered for a theoretical vacation and an itinerary was planned out based on these points. The locations were grouped in the northern point of Australia's Northern Territory and primarily were located in the more lush parts of the Australian territory. With further help from Google's Directions API a route was mapped out for these stops and the focus was on driving as the mode of transport for the customer. As shown in the map below, the itinerary covers several parts of the Northern Australian coast and allows for chances to explore many of the national parks located near each of the four cities the customer would be traveling to.
+#### **Vacation Points Map**:
+![WeatherPy_travel_map](Vacation_Itinerary/WeatherPy_travel_map.png)
 #### **Vacation Itinerary Map**:
 ![WeatherPy_travel_map_markers](Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
